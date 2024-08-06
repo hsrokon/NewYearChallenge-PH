@@ -2,4 +2,30 @@
 
 body {
   font-family: Merriweather;
+  margin: 0;
+  color: white;
+}
+
+.new-year-title {
+  background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/BannerImage.png);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: 600px;
+  width: 1320px;
+  margin: 50px auto;
+
+  /* padding-top: 150px; */
+  text-align: center;
+}
+
+.happy-text {
+  padding-top: 170px;
+  font-size: 24px;
+  font-weight: 700 ;
+}
+
+.celebration-text {
+  font-size: 75px;
+  font-weight: 700 ;
+  margin-bottom: 50px;
 }
