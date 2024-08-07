@@ -4,6 +4,7 @@ body {
   font-family: Merriweather;
   margin: 0;
   color: white;
+  margin-bottom: 50px;
 }
 
 a {
@@ -103,8 +104,53 @@ a {
 }
 .join-btn:hover {
   border: none;
+  cursor: pointer;
 }
 
 .design-2024 {
   width: 260px;
+}
+
+
+/* fourth-section */
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 400px;
+  width: 1320px;
+  margin: 50px auto;
+  border-radius: 16px;
+  background: linear-gradient( rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  padding-top: 60px;
+}
+
+.text-line {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.txt-red {
+  color: red;
+}
+
+.join-now2 {
+  margin-top: 50px;
+  height: 55px;
+  width: 150px;
+  /* border: 1px solid black; */
+  border: none;
+  color: white;
+  font-size: 19px;
+  border-radius: 7px;
+  background: red;
+}
+.join-now2:hover {
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
 }
