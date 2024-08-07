@@ -71,6 +71,8 @@ a {
   border-radius: 18px;
 
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .third-section-left {
@@ -101,4 +103,8 @@ a {
 }
 .join-btn:hover {
   border: none;
+}
+
+.design-2024 {
+  width: 260px;
 }
