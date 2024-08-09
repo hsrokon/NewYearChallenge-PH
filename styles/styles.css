@@ -269,3 +269,40 @@ a {
 .discount img {
   width: 270px;
 }
+
+
+/* seventh-section */
+.seventh-section {
+  color: black;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.txt9 {
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.txt10 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-top: -8px;
+}
+
+.txt11 {
+  margin-top: -6px;
+  margin-bottom: 27px ;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.grid-part {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  /* both same  */
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); */
+  row-gap: 11px;
+}
