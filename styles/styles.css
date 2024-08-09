@@ -306,3 +306,58 @@ a {
   grid-template-columns: repeat(3, 1fr); */
   row-gap: 11px;
 }
+
+
+/* last-section */
+.last-section {
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px;
+  padding-bottom: 80px;
+
+  background-color:bisque;
+  border-radius: 16px;
+}
+
+.txt12 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.txt13 {
+  font-size: 0.9rem;
+}
+
+.input-section{
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  border: 1px solid orange;
+  height: 3.5em;
+  width: 20em;
+  padding-left: 0.9em;
+  font-size: 14px;
+
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.button {
+  border: 1px solid orange;
+  height: 3.9em;
+  width: 9em;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-right: 0.8em;
+  background-color: orange;
+}
+
+.button:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
