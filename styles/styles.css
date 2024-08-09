@@ -204,3 +204,68 @@ a {
   color: red;
   margin-top: 0;
 }
+
+
+/* sixth-section */
+.sixth-section {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt6 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-bottom: -12px;
+}
+
+.txt7 {
+  font-size: 3.5rem;color: red;
+  font-weight: 600;
+}
+
+.txt8 {
+  font-size: 0.8rem;
+  margin-top: -25px;
+  line-height: 22px;
+}
+
+.solid-color {
+  background-color: red;
+  height: 150px;
+  width: auto;
+  /* top: 77%; */
+  position: relative;
+  /* z-index: 1; */
+  margin-top: -5rem;
+}
+
+.sixth-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: relative;
+  z-index: 1;
+}
+
+.sixth-image-section img {
+  width: 550px;
+}
+
+.kitty img {
+  width: 370px;
+  margin-left: -473px;
+  margin-top: -100px;
+}
+
+.discount {
+  position: relative;
+  margin-top: -300px;
+  left: 32%;
+  z-index: 1;
+}
+.discount img {
+  width: 270px;
+}
